@@ -52,6 +52,6 @@ app.post('/', function (req, res) {
     });
 });
 var server = app.listen(7000, function () {
-    console.log(`RSA Archer file storage api 7000 port listening...`);
+    console.log(`Multer file storage api 7000 port listening...`);
 });
 
